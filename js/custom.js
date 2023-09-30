@@ -134,41 +134,36 @@ $(document).ready(function()
 			var playlist = 
 			[
 				{
-					title:"Better Days",
-					artist:"Bensound",
-					mp3:"files/bensound-betterdays.mp3",
-					duration:"2.33"
+					title:"19 Years",
+					artist:"Yhaw Hero",
+					mp3:"files/19 Years.mp3",
+					duration:"2.36"
 				},
 				{
-					title:"Dubstep",
-					artist:"Bensound",
-					mp3:"files/bensound-dubstep.mp3",
-					duration:"2.04"
+					title:"Bra Fie",
+					artist:"Yhaw Hero",
+					mp3:"files/Bra Fie.flac",
+					duration:"2.41"
 				},
 				{
-					title:"Sunny",
-					artist:"Bensound",
-					mp3:"files/bensound-sunny.mp3",
-					duration:"2.20"
+					title:"Too Young",
+					artist:"Yhaw Hero",
+					mp3:"files/Too Young.mp3",
+					duration:"2.46"
 				},
 				{
-					title:"Better Days",
-					artist:"Bensound",
-					mp3:"files/bensound-betterdays.mp3",
-					duration:"2.33"
+					title:"Cold War",
+					artist:"Yhaw Hero",
+					mp3:"files/Cold War.mp3",
+					duration:"3.03"
 				},
 				{
-					title:"Dubstep",
-					artist:"Bensound",
-					mp3:"files/bensound-dubstep.mp3",
-					duration:"2.04"
+					title:"Hustlers Prayer",
+					artist:"Yhaw Hero",
+					mp3:"files/P.mp3",
+					duration:"5.10"
 				},
-				{
-					title:"Sunny",
-					artist:"Bensound",
-					mp3:"files/bensound-sunny.mp3",
-					duration:"2.20"
-				}
+				
 			];
 
 			var options =
@@ -283,8 +278,8 @@ $(document).ready(function()
 		ready: function () {
 			$(this).jPlayer("setMedia", {
 				title:"Better Days",
-					artist:"Bensound",
-					mp3:"files/bensound-betterdays.mp3"
+					artist:"Yhaw Hero",
+					mp3:"files/Yhaw Hero-betterdays.mp3"
 			});
 		},
 		play: function() { // To avoid multiple jPlayers playing together.
