@@ -99,9 +99,9 @@ $(document).ready(function()
 			$("#jplayer_2").jPlayer({
 				ready: function () {
 					$(this).jPlayer("setMedia", {
-						title:"Better Days",
-							artist:"Bensound",
-							mp3:"files/bensound-betterdays.mp3"
+						title:"19 Years",
+							artist:"Yhaw Hero",
+							mp3:"files/19 Years.mp3"
 					});
 				},
 				play: function() { // To avoid multiple jPlayers playing together.
