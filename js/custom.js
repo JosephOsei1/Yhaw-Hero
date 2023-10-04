@@ -277,9 +277,9 @@ $(document).ready(function()
 			$("#jplayer_2").jPlayer({
 		ready: function () {
 			$(this).jPlayer("setMedia", {
-				title:"Better Days",
+				title:"Bra Fie",
 					artist:"Yhaw Hero",
-					mp3:"files/Yhaw Hero-betterdays.mp3"
+					mp3:"files/Bra Fie.flac"
 			});
 		},
 		play: function() { // To avoid multiple jPlayers playing together.
